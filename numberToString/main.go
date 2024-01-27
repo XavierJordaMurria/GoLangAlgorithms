@@ -103,15 +103,6 @@ func main() {
 		panic(err)
 	}
 
-	// var under10 = []int{1, 2, 3, 4, 5, 6, 7, 8, 9}
-
-	// for i, v := range under10 {
-	// 	fmt.Println(i, v)
-	// 	fmt.Printf("%v/%v = %v\n", theNumber, v, theNumber/v)
-	// 	fmt.Printf("%v%%%v = %v\n", theNumber, v, theNumber%v)
-	// 	fmt.Println("--")
-	// }
-
 	var theLetters string = numberToLetter(theNumber)
 	fmt.Println(theLetters)
 }
